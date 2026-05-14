@@ -6,7 +6,7 @@ public class Hilos implements Runnable{
     private String palabra;
     private int contador;
 
-    public Hilos(String[] filas, String palabra, int contador){
+    public Hilos(String[] fila, String palabra){
         this.fila = fila;
         this.palabra = palabra;
         this.contador = 0;
